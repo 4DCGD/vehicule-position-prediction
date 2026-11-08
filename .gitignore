@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ML artifacts
+sprint-3/training/models/
+sprint-3/training/data/
+sprint-2/feature-engineering/data/
+mlruns/
+
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+*.class
+
+# dbt
+sprint-2/dbt/target/
+sprint-2/dbt/dbt_packages/
+sprint-2/dbt/logs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Env
+.env
+.env.local
